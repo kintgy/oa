@@ -1,13 +1,16 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  {{ $store.state.userInfo }}
+  <header-content></header-content>
 </template>
 
 <script>
 
+import HeaderContent from "@/views/base/HeaderContent";
+
 export default {
   name: 'App',
+  components: {HeaderContent},
   setup() {
+
   }
 }
 </script>
